@@ -10,12 +10,12 @@ convertBtn.addEventListener("click", ()=>{
         output.innerText = "Please enter a valid number"
     }else if(inputValue < 0){
     output.classList.remove("hidden")
-        output.classList.add("alert");
+        output.classList.add('alert');
         output.innerText = "Please enter a number greater than or equal to 1"
     }else if(inputValue >= 4000){
         
       output.classList.remove("hidden")
-        output.classList.add("alert");
+        output.classList.add('alert');
         output.innerText = "Please enter a number less than or equal to 3999"
     }else{ 
 const convertToRoman = num =>{
@@ -44,6 +44,7 @@ const romans = [
 
         return result.join("")
     }
+    output.classList.remove("alert")
     output.innerText = convertToRoman(inputValue)}
    
 })
