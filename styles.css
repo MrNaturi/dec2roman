@@ -80,7 +80,7 @@ main {
   .alert{
  background-color: #ff3737 !important;
   color: #ffffff !important;
-  border: 3px solid #ff0000 !important;
+  border: 3px solid #f5f6f7 !important;
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.5) !important;
 
 }
