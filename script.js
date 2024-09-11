@@ -43,6 +43,7 @@ const romans = [
 
         return result.join("")
     }
+        output.classList.toggle("hidden")
     output.innerText = convertToRoman(inputValue)}
    
 })
